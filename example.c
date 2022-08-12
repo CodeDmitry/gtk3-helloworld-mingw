@@ -8,7 +8,7 @@ static void print_hello (
     GtkWidget *lpWidget,
     gpointer lpData )
 {
-    g_print ("Hello World\n");
+    g_print("Hello World\n");
 }
 
 static void activate (
