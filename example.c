@@ -29,6 +29,7 @@ static void activate (
         800, 
         500
     );
+    
     gtk_window_set_position(GTK_WINDOW(lpWindow), GTK_WIN_POS_CENTER);
 
     lpButton = gtk_button_new_with_label("Hello World");
