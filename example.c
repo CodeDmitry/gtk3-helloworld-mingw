@@ -8,7 +8,7 @@ static void print_hello (
     GtkWidget *lpWidget,
     gpointer lpData )
 {
-    g_print("Hello World\n");
+    g_print ("Hello World\n");
 }
 
 static void activate (
@@ -26,8 +26,8 @@ static void activate (
   
     gtk_window_set_default_size(
         GTK_WINDOW(lpWindow), 
-        200, 
-        200
+        800, 
+        500
     );
 
     lpButton = gtk_button_new_with_label("Hello World");
@@ -52,11 +52,6 @@ int main(int argc, char **argv) {
     GtkApplication *lpApp = (GtkApplication *)0;
     int appRunResult = 0;
 
-    lpApp = gtk_application_new(
-        "org.gtkmm.example.HelloApp", 
-        G_APPLICATION_FLAGS_NONE
-    );
-    
     lpApp = gtk_application_new (
         "org.gtk.example", 
         G_APPLICATION_FLAGS_NONE
