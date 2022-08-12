@@ -47,7 +47,6 @@ static void activate (
     gtk_window_present(GTK_WINDOW(lpWindow));
 }
 
-
 int main(int argc, char **argv) {
     GtkApplication *lpApp = (GtkApplication *)0;
     int appRunResult = 0;
