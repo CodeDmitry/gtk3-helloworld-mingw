@@ -9,5 +9,3 @@ Main changes from https://www.gtk.org/docs/getting-started/hello-world
 4. Added hungarian notation because I felt like it.
 5. Split long lines into multiple lines to be easier to visually parse.
 
-
-gtk_widget_show_all
