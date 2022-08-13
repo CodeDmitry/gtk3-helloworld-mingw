@@ -8,7 +8,7 @@ static void print_hello (
     GtkWidget *lpWidget,
     gpointer lpData )
 {
-    g_print ("Hello World\n");
+    g_print ("Hello, World!\n");
 }
 
 static void activate (
@@ -29,7 +29,6 @@ static void activate (
         800, 
         500
     );
-    
     gtk_window_set_position(GTK_WINDOW(lpWindow), GTK_WIN_POS_CENTER);
 
     lpButton = gtk_button_new_with_label("Hello World");
@@ -46,7 +45,7 @@ static void activate (
         lpButton
     );
 
-    gtk_window_present(GTK_WINDOW(lpWindow));
+    gtk_widget_show_all(GTK_WIDGET(lpWindow));
 }
 
 
