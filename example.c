@@ -5,8 +5,8 @@
 #include <gtk/gtk.h>
 
 static void print_hello (
-    GtkWidget *lpWidget,
-    gpointer lpData )
+    /* in */ GtkWidget *lpWidget,
+    /* in */ gpointer lpData )
 {
     g_print ("Hello, World!\n");
 }
