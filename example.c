@@ -12,8 +12,8 @@ static void print_hello (
 }
 
 static void activate (
-    GtkApplication *lpApp,
-    gpointer lpUserData )
+    /* in */ GtkApplication *lpApp,
+    /* in */ gpointer lpUserData )
 {
     GtkWidget *lpWindow;
     GtkWidget *lpButton;
